@@ -9,5 +9,5 @@ os.environ.setdefault(
 )
 os.environ.setdefault(
     "CLOUDINARY_URL",
-    "cloudinary://965834811159945lA7kEPYKmSDoyH6D8jId9EKafBg@dagmdhzkr",
+    "cloudinary://965834811159945:lA7kEPYKmSDoyH6D8jId9EKafBg@dagmdhzkr",
 )
