@@ -7,3 +7,6 @@ os.environ.setdefault(
 os.environ.setdefault(
     "SECRET_KEY", "i4@ihguc9=*u(kw^y$0ghr8mzxqc=ag-0komv%cso5$09x5hr)"
 )
+os.environ.setdefault(
+    "CLOUDINARY_URL", "cloudinary://<your_api_key>:<your_api_secret>@dagmdhzkr"
+)
