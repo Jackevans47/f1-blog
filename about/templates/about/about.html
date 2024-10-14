@@ -5,7 +5,7 @@
       {% if "placeholder" in about.profile_image.url %}
       <img
         src="{% static 'images/mclaren.png' %}"
-        width="75%"
+        width="100%"
         alt="placeholder image"
       />
       {% else %}
@@ -15,7 +15,6 @@
         alt="{{ about.title }}"
       />
       {% endif %}
-      <img src="{% static 'images/f1-calendar-2023.jpg' %}" width="75%" />
     </div>
     <div class="col-8">
       <h2>{{ about.title }}</h2>
