@@ -15,7 +15,7 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
-    Display an individual model
+    Display an individual model :model:`blog.Post`.
     """
 
     queryset = Post.objects.filter(status=1)
