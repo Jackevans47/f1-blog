@@ -1,12 +1,23 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
+from django.contrib.auth.forms import UserChangeForm
 from django.http import HttpResponseRedirect
+from django.urls import reverse_lazy
 from .models import Post, Comment
 from .forms import CommentForm
 
 
 # Create your views here.
+class UserEditForm(generic.UpdateView):
+    form_class = UserChangeForm
+    template_name = "account/edit_profile.html"
+    success_url = reverse_lazy("home")
+
+    def get_object(self):
+        return self.request.user
+
+
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "blog/index.html"
