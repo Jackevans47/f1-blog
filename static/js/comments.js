@@ -4,6 +4,7 @@ const commentForm = document.getElementById("commentForm");
 const submitButton = document.getElementById("submitButton");
 
 const deleteModal = new bootstrap.Modal(document.getElementById("deleteModal"));
+const likeButtons = document.getElementsByClassName("btn-like");
 const deleteButtons = document.getElementsByClassName("btn-delete");
 const deleteConfirm = document.getElementById("deleteConfirm");
 
@@ -23,9 +24,9 @@ for (let button of editButtons) {
 }
 
 /**
-* Initializes delete and delete conformation functionality
+  * Initializes delete and delete conformation functionality
 
-*/
+  */
 for (let button of deleteButtons) {
   button.addEventListener("click", (e) => {
     let commentId = e.target.getAttribute("data-comment_id");

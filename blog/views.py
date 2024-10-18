@@ -2,9 +2,9 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
 from django.contrib.auth.forms import UserChangeForm
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse_lazy
-from .models import Post, Comment
+from .models import Post, Comment, Like, User
 from .forms import CommentForm
 
 
@@ -48,13 +48,31 @@ def post_detail(request, slug):
 
     comment_form = CommentForm()
 
+    comment_data = []
+
+    for comment in comments:
+        likes = comment.likes
+        # make a list of all the user ids that are on the likes
+        # check if the request.user_id is in the list (get True/False)
+        comment_data.append(
+            {
+                "id": comment.id,
+                "author": comment.author,
+                "body": comment.body,
+                "approved": comment.approved,
+                "created_on": comment.created_on,
+                "like_count": comment.likes.count(),
+                # "has_liked": True/False
+            }
+        )
+
     return render(
         request,
         "blog/post_detail.html",
         {
             "post": post,
             "coder": "Jack Evans",
-            "comments": comments,
+            "comments": comment_data,
             "comment_count": comment_count,
             "comment_form": comment_form,
         },
@@ -101,5 +119,17 @@ def comment_delete(request, slug, comment_id):
         messages.add_message(
             request, messages.ERROR, "You can only delete your own comments!"
         )
+
+    return HttpResponseRedirect(reverse("post_detail", args=[slug]))
+
+
+def comment_like(request, slug, comment_id):
+    """
+    view to like a comment
+    """
+    comment = get_object_or_404(Comment, pk=comment_id)
+    user = get_object_or_404(User, pk=request.user.id)
+    like = Like(user=user, comment=comment)
+    like.save()
 
     return HttpResponseRedirect(reverse("post_detail", args=[slug]))

@@ -54,3 +54,13 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.author}"
+
+
+# Like functionality
+class Like(models.Model):
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="likes"
+    )
+    comment = models.ForeignKey(
+        Comment, on_delete=models.CASCADE, related_name="likes"
+    )
