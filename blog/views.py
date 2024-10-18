@@ -5,12 +5,12 @@ from django.contrib.auth.forms import UserChangeForm
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse_lazy
 from .models import Post, Comment, Like, User
-from .forms import CommentForm
+from .forms import CommentForm, EditProfileForm
 
 
 # Create your views here.
 class UserEditForm(generic.UpdateView):
-    form_class = UserChangeForm
+    form_class = EditProfileForm
     template_name = "account/edit_profile.html"
     success_url = reverse_lazy("home")
 
