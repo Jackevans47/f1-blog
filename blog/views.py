@@ -1,11 +1,12 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
-from django.contrib.auth.forms import UserChangeForm
+from django.contrib.auth.forms import UserChangeForm, PasswordChangeForm
+from django.contrib.auth.views import PasswordChangeView
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse_lazy
 from .models import Post, Comment, Like, User
-from .forms import CommentForm, EditProfileForm
+from .forms import CommentForm, EditProfileForm, PasswordChangingForm
 
 
 # Create your views here.
@@ -133,3 +134,14 @@ def comment_like(request, slug, comment_id):
     like.save()
 
     return HttpResponseRedirect(reverse("post_detail", args=[slug]))
+
+
+class PasswordsChangeView(PasswordChangeView):
+    form_class = PasswordChangingForm
+    # form_class = PasswordChangeForm
+    # success_url = reverse_lazy("home")
+    success_url = reverse_lazy("password_success")
+
+
+def password_success(request):
+    return render(request, "account/password_success.html", {})
