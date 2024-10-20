@@ -158,3 +158,12 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 | Body          | body          | TextField     |  ()  |
 | Approved      | approved      | BooleanField  |  default=False  |
 | created_on    | created_on    | DateTimeField |  auto_now_add=True  |
+
+
+3. **Like**
+
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| User          | user          | ForeignKey    |   User, on_delete=models.CASCADE, related_name="likes"  |
+| Comment        | comment        | ForeignKey    |  Comment, on_delete=models.CASCADE, related_name="likes"  |
