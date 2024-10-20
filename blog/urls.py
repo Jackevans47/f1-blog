@@ -7,7 +7,6 @@ from . import views
 urlpatterns = [
     path("", views.PostList.as_view(), name="home"),
     path("edit_profile/", UserEditForm.as_view(), name="edit_profile"),
-    #
     path(
         "<int:uid>/password/",
         PasswordsChangeView.as_view(
