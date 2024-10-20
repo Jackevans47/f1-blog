@@ -148,3 +148,13 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 | updated_on    | updated_on    | DateTimeField  | auto_now=True |
 
 
+
+2. **Comment**
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| Post          | post          | ForeignKey    |   Post, on_delete=models.CASCADE, related_name="comments"  |
+| Author        | author        | ForeignKey    |  User, on_delete=models.CASCADE, related_name="commenter"  |
+| Body          | body          | TextField     |  ()  |
+| Approved      | approved      | BooleanField  |  default=False  |
+| created_on    | created_on    | DateTimeField |  auto_now_add=True  |
