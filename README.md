@@ -127,3 +127,24 @@ The app was developed for anyone wanting to stay up to date with F1 news.
     + [JShint](https://jshint.com/): was used to validate JS code for the website.
     + [PEP8](https://pep8.org/): was used to validate Python code for the website.
 
+---
+
+### Data Modeling
+
+1. **Post**
+
+
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| Title         | title         | CharField     |  max_length=200, unique=True  |
+| Slug          | slug          | SlugField     | max_length=200, unique=True   |
+| Author        | author        | ForeignKey    | User, on_delete=models.CASCADE, related_name="blog_posts"   |
+| featured_image| featured_image|CloudinaryField| "image", default="placeholder"   |
+| content       | content       | TextField     |     ()    |
+| created_on    | created_on    | DateTimeField | "image", auto_now_add=True|
+| status        | status        | IntegerField  | choices=STATUS, default=0  |
+| excerpt       | excerpt       | TextField     | blank=True  |
+| updated_on    | updated_on    | DateTimeField  | auto_now=True |
+
+
