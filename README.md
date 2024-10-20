@@ -33,7 +33,6 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 |[#3](https://github.com/Jackevans47/f1-blog/issues/11)|As a First Time Visitor, I want to be able to find the app useful, so that it encourages me to return to the app.|
 
 
- https://github.com/Jackevans47/f1-blog/issues/8
 
 #### **Frequent Visitor Goals**
 
@@ -48,9 +47,6 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 |[#10](https://github.com/Jackevans47/f1-blog/issues/9)| As a frequent user, i want to be able to modify or delete my comments.
 
 
-
-
-https://github.com/Jackevans47/f1-blog/issues/9
 
 
 
