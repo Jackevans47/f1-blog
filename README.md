@@ -7,6 +7,21 @@ Repository: [GitHub Repo](https://github.com/Jackevans47/f1-blog)
 
 The app is developed by [Jack Evans](https://github.com/Jackevans47).
 
+
+## User Experience Design
+
+### Strategy
+
+Developed for enthusiasts for F1, this app was designed to allow users to browse and stay up to date with news inside the world of F1. This was achieved by allowing users to easily navigate through the app, be able to create an account and comment on blog posts. Users are able to like comments that other users have posted on blogs.
+
+### Target Audience
+
+The app was developed for anyone wanting to stay up to date with F1 news. 
+  * Anyone can create an account to comment on  log posts.
+  * Only members with accounts can log in to comment.
+  * Members can also like other members comments.
+
+
 ### User Stories
 
 #### **First Time Visitor Goals**
