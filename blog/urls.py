@@ -24,7 +24,7 @@ urlpatterns = [
     path(
         "<slug:slug>/delete_comment/<int:comment_id>",
         views.comment_delete,
-        name="c",
+        name="comment_delete",
     ),
     path(
         "<slug:slug>/like_comment/<int:comment_id>",
