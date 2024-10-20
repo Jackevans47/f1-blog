@@ -167,3 +167,15 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 | ------------- | ------------- | ------------- | ---------- |
 | User          | user          | ForeignKey    |   User, on_delete=models.CASCADE, related_name="likes"  |
 | Comment        | comment        | ForeignKey    |  Comment, on_delete=models.CASCADE, related_name="likes"  |
+
+
+
+4. **About**
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| Title          | title          | CharField|   max_length=200  |
+| profile_image        | profile_image        | CloudinaryField    |  "image", default="placeholder"  |
+| updated_on          | updated_on          | TextField     |  ()  |
+| Approved      | approved      | DateTimeField  |  auto_now=True |
+| content    | content    | TextField |  ()  |
