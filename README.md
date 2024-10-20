@@ -1,5 +1,12 @@
 # F1-Blog
 
+Live Version: [F1-Blog](https://f1-blog-project-4-e7ef4f08fdeb.herokuapp.com/)
+
+Repository: [GitHub Repo](https://github.com/Jackevans47/f1-blog)
+
+
+The app is developed by [Jack Evans](https://github.com/Jackevans47).
+
 ### User Stories
 
 #### **First Time Visitor Goals**
