@@ -179,3 +179,30 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 | updated_on          | updated_on          | TextField     |  ()  |
 | Approved      | approved      | DateTimeField  |  auto_now=True |
 | content    | content    | TextField |  ()  |
+
+
+
+---
+
+## Colour Scheme
+
+
+The color scheme of the application is based on the bold colors:
+
+-  Plain white was used as the background colour.
+
+- #188181 was used for the sign in/out, submit, edit and like button.
+
+![submit, like, edit, sign in:out](https://github.com/user-attachments/assets/c36cc25b-d405-4abf-8f37-970cc6eab707)
+
+- #445261 was used for the footer and banner on blog posts.
+
+![blog post and footer](https://github.com/user-attachments/assets/d19597f1-b049-4bf2-bd44-ed0e728296c5)
+
+- #E84610 was used for the delete button.
+
+![delete](https://github.com/user-attachments/assets/3c4ab554-aad9-45d0-8a12-775dee2bb5c8)
+
+
+---
+
