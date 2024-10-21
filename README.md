@@ -129,6 +129,14 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 
 ---
 
+### Entity-Relationship Diagram
+
+* The ERD was created using [Draw.io](https://www.lucidchart.com/).
+
+- [Database Scheme](https://github.com/user-attachments/assets/e463ebac-acc8-4de5-81a6-f252f07aeb39)
+
+
+
 ### Data Modeling
 
 1. **Post**
