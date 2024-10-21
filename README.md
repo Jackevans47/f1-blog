@@ -214,3 +214,9 @@ The color scheme of the application is based on the bold colors:
 
 ---
 
+## Deployment
+
+
+- The app was deployed to [Heroku](https://dashboard.heroku.com).
+
+- The app can be reached by the [link](https://f1-blog-project-4-e7ef4f08fdeb.herokuapp.com/).
