@@ -233,7 +233,6 @@ The color scheme of the application is based on the bold colors:
 - [Font awesome](https://fontawesome.com/): for the free access to icons.
 - [Heroku](https://www.heroku.com/): for the free hosting of the website.
 - [jQuery](https://jquery.com/): for providing varieties of tools to make standard HTML code look appealing.
-- [Postgresql](https://www.postgresql.org/): for providing a free database.
 - [Codemy.com](https://www.youtube.com/watch?v=N-PB-HMFmdo): for providing a free video to help impliment features to the app.
 - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
 
