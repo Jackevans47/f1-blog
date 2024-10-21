@@ -67,8 +67,8 @@
           {% if user.is_authenticated and comment.author != user %}
           <form action = like_comment/{{comment.id}} method = "post">
             {% csrf_token %}
-            <label for="your_name">Like</label>
-            <input type="submit" value="Like">
+            <label for="your_name"></label>
+            <input type="submit" value="Like" class="btn btn-signup btn-lg">
           </form>
           {% endif %} {% if user.is_authenticated and comment.author == user %}
           <button class="btn btn-delete" data-comment_id="{{ comment.id }}">
