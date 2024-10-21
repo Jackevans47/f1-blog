@@ -46,15 +46,22 @@ def post_detail(request, slug):
                 messages.SUCCESS,
                 "Comment submitted and awaiting approval",
             )
+        return HttpResponseRedirect(reverse("post_detail", args=[slug]))
 
     comment_form = CommentForm()
 
     comment_data = []
 
     for comment in comments:
-        likes = comment.likes
+        # likes = comment.likes
         # make a list of all the user ids that are on the likes
         # check if the request.user_id is in the list (get True/False)
+        likes = comment.likes.all()
+        user_ids = [like.user_id for like in likes]
+        has_liked = False
+        if request.user.id in user_ids:
+            has_liked = True
+
         comment_data.append(
             {
                 "id": comment.id,
@@ -63,7 +70,7 @@ def post_detail(request, slug):
                 "approved": comment.approved,
                 "created_on": comment.created_on,
                 "like_count": comment.likes.count(),
-                # "has_liked": True/False
+                "has_liked": has_liked,
             }
         )
 

@@ -50,7 +50,7 @@
       <div class="card-body">
         {% for comment in comments %}
         <div
-          class="p-2 comments {% if not comment.approved and comment.author == user %} faded{% elif not comment.approved %} d-none{% endif %}"
+          class="p-2 comments border {% if not comment.approved and comment.author == user %} faded{% elif not comment.approved %} d-none{% endif %}"
         >
           <p class="font-weight-bold">
             {{ comment.author }}
@@ -64,7 +64,10 @@
           <p class="approval">This comment is awaiting approval</p>
           {% endif %} <br />
           <div>Likes: {{comment.like_count}}</div>
-          {% if user.is_authenticated and comment.author != user %}
+          {% if comment.has_liked %}
+          <div>You have liked this comment</div>
+          {% endif %}
+          {% if user.is_authenticated and comment.author != user and not comment.has_liked %}
           <form action = like_comment/{{comment.id}} method = "post">
             {% csrf_token %}
             <label for="your_name"></label>
