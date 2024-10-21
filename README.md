@@ -237,3 +237,12 @@ The color scheme of the application is based on the bold colors:
 - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
 
 
+---
+
+## Acknowledgements
+
+[Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+
+I am grateful to my mentor Iuliia Konovalova for her guidance and helpful feedback!
+
+---
