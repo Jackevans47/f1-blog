@@ -220,3 +220,21 @@ The color scheme of the application is based on the bold colors:
 - The app was deployed to [Heroku](https://dashboard.heroku.com).
 
 - The app can be reached by the [link](https://f1-blog-project-4-e7ef4f08fdeb.herokuapp.com/).
+
+
+---
+
+## Credits
+
+- [GitHub](https://github.com/) for giving the idea of the project's design.
+- [Django](https://www.djangoproject.com/) for the framework.
+- [Heroku](https://dashboard.heroku.com): for the free hosting of the website.
+- [PostgreSQL](https://dbs.ci-dbs.net/): for the database used to store all the data provided by code institute.
+- [Font awesome](https://fontawesome.com/): for the free access to icons.
+- [Heroku](https://www.heroku.com/): for the free hosting of the website.
+- [jQuery](https://jquery.com/): for providing varieties of tools to make standard HTML code look appealing.
+- [Postgresql](https://www.postgresql.org/): for providing a free database.
+- [Codemy.com](https://www.youtube.com/watch?v=N-PB-HMFmdo): for providing a free video to help impliment features to the app.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
+
+
