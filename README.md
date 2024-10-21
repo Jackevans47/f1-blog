@@ -8,6 +8,9 @@ Repository: [GitHub Repo](https://github.com/Jackevans47/f1-blog)
 The app is developed by [Jack Evans](https://github.com/Jackevans47).
 
 
+<img width="1374" alt="home" src="https://github.com/user-attachments/assets/237db377-683f-483d-a760-cf05ae06c2f2">
+
+
 ## User Experience Design
 
 ### Strategy
