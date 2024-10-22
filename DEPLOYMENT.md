@@ -63,3 +63,41 @@ Create a local copy of the GitHub repository by following one of the two process
     - Enter your username and password (for the superuser that you have created before).
     - You will be redirected to the admin page.
 
+---
+
+## Heroku Deployment
+
+* Set up a local workspace on your computer for Heroku:
+    - Create a list of requirements that the project needs to run:
+      - type this in the terminal: `pip3 freeze > requirements.txt`
+    - Commit and push the changes to GitHub
+    
+* Go to [www.heroku.com](www.heroku.com) 
+* Log in or create a Heroku account.
+* Create a new app with any unique name <name app>.
+
+  <img width="1301" alt="create app" src="https://github.com/user-attachments/assets/e397f3f9-9e55-4d9d-9fff-bb1b56a57617">
+
+  * Create a Procfile in your local workplace:
+
+  ![Heroku. Procfile](https://github.com/user-attachments/assets/164a9de2-303b-4207-8df1-61495a2e88a8)
+
+    
+    This file will will contain the following:
+    ```python
+        web: gunicorn <name app>.wsgi:application
+    ```
+    - Commit and push the changes to GitHub.
+ 
+      * Go to the settings app in Heroku and go to Config Vars.
+
+<img width="689" alt="settings" src="https://github.com/user-attachments/assets/a6015086-0454-4184-8e33-dc63af1410d1">
+
+Click on Reveal Config Vars and add the following config variables:
+
+| Key      | Value          |
+|-------------|-------------|
+| DATABASE_URL | ... | 
+| CLOUDINARY_URL | ... |
+| SECRET_KEY | ... |
+
