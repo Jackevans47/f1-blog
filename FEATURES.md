@@ -94,3 +94,34 @@ Links to the coders social media accounts. (Links will be functional in future u
  <img width="156" alt="edit:delete" src="https://github.com/user-attachments/assets/a4dbdd09-f8f8-4766-b0a5-f194a47bd08c">
  <img width="345" alt="like comment" src="https://github.com/user-attachments/assets/deb21abf-dd29-424e-86c0-36d8c297548c">
 
+---
+
+**About page**
+
+The about page contains the infomation telling the user what the blog post is about.
+
+<img width="1422" alt="about page" src="https://github.com/user-attachments/assets/0d9d2ffa-dd51-4e4e-8a30-7d5b0a0b755a">
+
+
+---
+
+**Register page**
+
+- The register page contains the form to allow users to be able to create an account which gives them access to be able to comment and like other blog posts.
+
+- A link is also present to direct the user to the log in page if they already have an account.
+
+  <img width="1423" alt="register page" src="https://github.com/user-attachments/assets/cb4b9efb-6c57-4e71-bc73-293d8e74a3ed">
+
+---
+
+**Login page**
+
+- The login page allows a user to be able to create their profile.
+
+- This page also contains a link to direct users back to the register page if they have not created an account.
+
+  
+<img width="1424" alt="log in page" src="https://github.com/user-attachments/assets/5b0959c4-ce2e-4c8d-998c-cbfa43fab2ad">
+
+---
