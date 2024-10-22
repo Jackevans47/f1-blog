@@ -184,3 +184,37 @@ To run the unit tests locally, use the following command: `python3 manage.py tes
 
 
 ---
+
+
+## Compatibility
+
+Testing was conducted on the following browsers;
+
+- Chrome;
+
+- Home
+- ![chrome home](https://github.com/user-attachments/assets/e626db72-aca5-4a92-ac30-127984d55820)
+
+
+- Blog
+- ![chrome blog](https://github.com/user-attachments/assets/32062fc4-b902-49db-b931-a5ad1ac31195)
+
+- About
+- ![chrome about](https://github.com/user-attachments/assets/18d03e93-bd52-47ca-be5c-346084435931)
+
+
+- Firefox;
+
+- Home
+- ![firefox home](https://github.com/user-attachments/assets/4607b1c5-2e39-464f-b53c-bb15021c5965)
+
+- Blog
+- ![firefox blog](https://github.com/user-attachments/assets/3cf136e7-a6bd-4c31-aa08-76f596914709)
+
+- About
+- ![firefox about](https://github.com/user-attachments/assets/81184d27-3e85-46f0-b203-e6d436570dba)
+
+
+
+---
+
