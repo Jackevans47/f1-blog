@@ -66,3 +66,11 @@ The footer contains infomation on the coder who built the site.
 Links to the coders social media accounts. (Links will be functional in future update)
 
 <img width="241" alt="links" src="https://github.com/user-attachments/assets/c78ce42d-f4d7-480c-a0de-7cc5d7a0360f">
+
+
+
+**Home page**
+
+The homepage contains the first page of blog posts avaliable for the reader to see.
+
+<img width="1425" alt="homepage" src="https://github.com/user-attachments/assets/afd7347f-2284-45ac-a98a-4176d040fc1e">
