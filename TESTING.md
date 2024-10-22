@@ -66,6 +66,12 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | As a First Time Visitor, I want to be able to find the app useful, so that it encourages me to return to the app.| The website cover benefits of becoming a member  | go to features section in the [README.md](README.md)|
 
 
-
-
-
+| Frequent Visitor Goals    | Requirement met | Image |
+| ------------------------- | --------------- | ----- |
+| As a Frequent User, I want to be able to log in to my account, so that I can have a personal account. | Log in from the Login page | <img width="1424" alt="log in page" src="https://github.com/user-attachments/assets/494087de-59b7-481d-95d4-04310c3d40ce">|
+| As a Frequent User, I want to be able to easily log in and log out, so that I can access my personal account with ease.| Log out from the Logout page|<img width="1432" alt="logout page" src="https://github.com/user-attachments/assets/19706946-7fc5-4cdb-8f39-5ddc28d2238b">|
+| As a Frequent User, I can be able to change my password, so that I can keep my account safe in case my password becomes public.| link on edit profile page to change password page | <img width="1426" alt="change password page" src="https://github.com/user-attachments/assets/43527887-8f1b-4b66-8805-22ae64dfd0c3">|
+| As a frequent user, i want to be able to edit my profile.| Avaliable on edit profile page|![edit profile page](https://github.com/user-attachments/assets/04524e46-48a7-44d7-9382-77f0301a494f)|
+| As a frequent user, i want to be able to comment on blog posts.| After creating a profile, comments can be made on blog posts.|<img width="441" alt="leave a comment" src="https://github.com/user-attachments/assets/ba675e9f-75b4-4a12-b88f-d0abbe0ca1d1">|
+|As a frequent user, i want to be able to view comments made on a blog post.| All comments avaliable to view on any blog post|<img width="920" alt="comments logged out" src="https://github.com/user-attachments/assets/85c267e1-f1df-4e90-9b7d-7fb287e948af">|
+| As a frequent user, i want to be able to modify or delete my comments.| Next to the comment there is an edit or delete button|<img width="897" alt="comments logged in" src="https://github.com/user-attachments/assets/8420dc1d-5de9-4a65-9955-c3c7c421055d">|
