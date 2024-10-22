@@ -153,3 +153,15 @@ The about page contains the infomation telling the user what the blog post is ab
 
 ---
 
+
+## Future features and improvements.
+
+Future improvements and implimentations to F1-Blog will allow the app to become more interactive and engaging.
+
+  **Blog Posts**
+
+- Currenty the app is a read only blog, future improvments will add the feature to allow users to post their own blog posts to the site.
+
+  **Profile improvments**
+
+  - The profile page will be addapted to allow users to add a profile picture to their accounts as well as being able to add their own social links to allow each user to connect with each other with ease.
