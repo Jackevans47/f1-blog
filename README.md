@@ -48,6 +48,10 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 |[#8](https://github.com/Jackevans47/f1-blog/issues/7)| As a frequent user, i want to be able to comment on blog posts.
 |[#9]( https://github.com/Jackevans47/f1-blog/issues/8)| As a frequent user, i want to be able to view comments made on a blog post.
 |[#10](https://github.com/Jackevans47/f1-blog/issues/9)| As a frequent user, i want to be able to modify or delete my comments.
+|[#11](https://github.com/Jackevans47/f1-blog/issues/12)| As a frequent user, i want to be able to like comments on blog posts.
+
+
+
 
 
 
