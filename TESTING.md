@@ -27,3 +27,27 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | 3           | Click on "Register" button | Directed to the register page| Y | Available to everyone|
 | 4           | Click on "Login" button | Directed to the login page| Y | Available to everyone |
 | 5           | Click on "Sign up"  | Directed to the home page if user has filled in the form to create profile. Else "please fill in this field" pops up| Y | Available to everyone |
+| 4           | Click on "Login" button | Directed to the login page| Y | Available to everyone |
+| 5           | Enter valid email | Field will only accept email address format | Y |          |
+| 6           | Enter valid username | Allows users to choose their username| Y |          |
+| 7          | Enter valid password | Field will only accept secure passwords | Y |          |
+| 8          | Enter valid password confirmation | Field will only accept the same password from the previous field | Y |          |
+| Log In      |                        |                  |      |             |
+| 1           | Click on Sign in button | Redirection to home page if user has filled in the sign in form, else 'please fill in this field' message appears | Y |          |
+| 2           | Enter valid username | Allows users type their username to sign in| Y |          |
+| 3          | Enter valid password | Field will only accept users secure passwords | Y |          |
+| Edit Profile     |                        |                  |      |             |
+| 1           | Click on "username" | Allows users to change their username| Y |          |
+| 2           | Click on "email address" | Allows users to change their email address| Y |          |
+| 3           | Click on "first name" | Allows users to change their first name| Y |          |
+| 4           | Click on "last name" | Allows users to change their last name| Y |          |
+| 5           | Click on "password" | Users are directed to the change password page| Y |          |
+| 6           | Click on "update" | new infomation added will be updated and directed to the home page | Y |          |
+
+
+
+
+
+
+
+
