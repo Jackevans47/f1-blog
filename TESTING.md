@@ -90,6 +90,7 @@ Usability was tested with the below user acceptance testing, sent to new users t
 ![before format](https://github.com/user-attachments/assets/8365e036-6f30-4fe7-99f7-9758ef72c8ba)
 ![formating error](https://github.com/user-attachments/assets/c515fa2f-2c57-4123-a7fe-eb9d670c6d14)
 
+---
 
 ### Unit Tests
 
@@ -111,3 +112,42 @@ To run the unit tests locally, use the following command: `python3 manage.py tes
 - ![test_views](https://github.com/user-attachments/assets/b1a89f1e-6c03-4f57-9d15-c804c29cc1b3)
 - ![test_forms](https://github.com/user-attachments/assets/6b97b7f2-1998-4622-b57c-7fa496741d50)
 
+---
+
+### Validators
+
+**HTML**
+
+  - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+    <img width="1417" alt="html validator top" src="https://github.com/user-attachments/assets/493ca762-bc1f-4498-9ae4-a727d2711fcb">
+    <img width="1361" alt="html validator" src="https://github.com/user-attachments/assets/5798ce71-e3f4-441e-a46a-6862e83447bf">
+
+
+### CSS Validation:
+
+
+
+- No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except for the warnings about the use of css root variables and webkits for the box-shadow. However, css code works perfectly on various devices.
+<img width="1405" alt="css validator" src="https://github.com/user-attachments/assets/ef8734e7-fd00-4bf7-834f-6f9fcb4cdb14">
+
+
+### JS Validation:
+
+
+
+- 19 warning messages were found when passing through the official [JSHint](https://www.jshint.com/) validator.
+- 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+<img width="984" alt="js validator" src="https://github.com/user-attachments/assets/34a30beb-492c-4f5f-8fe8-fca17e11a5d5">
+
+### Python Validation:
+
+
+
+- 4 errors were found when the code was passed through Valentin Bryukhanov's [online validation tool](http://pep8online.com/). According to the reports, the code is [Pep 8-compliant](https://legacy.python.org/dev/peps/pep-0008/). This checking was done manually by copying python code and pasting it into the validator.
+
+- errors only found in settings.py
+- E501 line too long (91 > 79 characters) - `AUTH_PASSWORD_VALIDATORS` (x4) 
+<img width="441" alt="python linter errors" src="https://github.com/user-attachments/assets/d2eb457e-38a5-42d6-9643-037dd09ccd6c">
+
+- all other .py files have no errors
+<img width="442" alt="python linter ok" src="https://github.com/user-attachments/assets/53fe6b98-49a6-4027-9589-4262a664be35">
