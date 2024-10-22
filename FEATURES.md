@@ -125,3 +125,31 @@ The about page contains the infomation telling the user what the blog post is ab
 <img width="1424" alt="log in page" src="https://github.com/user-attachments/assets/5b0959c4-ce2e-4c8d-998c-cbfa43fab2ad">
 
 ---
+
+
+**Edit profile page**
+
+
+- The edit profile page allows logged in users to edit their profile, from here they can change their user name, email address or their first and last name.
+
+- Users can also change their password, when selected they are directed to the change password page.
+
+  ![edit profile page](https://github.com/user-attachments/assets/480c6e4c-ba6c-47f0-808d-0b68ff7fab9f)
+
+  ---
+
+  **Change password page**
+
+  - The change password page allows the user to change their password if they require.
+ 
+    <img width="1426" alt="change password page" src="https://github.com/user-attachments/assets/23f486b3-e906-45b8-b114-5948418609f3">
+
+---
+
+  **Logout page**
+- The logout page allows users to log out of their account when they have finished on the app.
+
+ <img width="1432" alt="logout page" src="https://github.com/user-attachments/assets/b7b57a74-688d-4818-be13-79131bc15cfa">
+
+---
+
