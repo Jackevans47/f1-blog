@@ -220,6 +220,9 @@ The color scheme of the application is based on the bold colors:
 
 ![delete](https://github.com/user-attachments/assets/3c4ab554-aad9-45d0-8a12-775dee2bb5c8)
 
+- #0DCAF0 was used for the change password button
+
+![change password](https://github.com/user-attachments/assets/81ac4e87-b5db-4475-803e-c50510e61fd9)
 
 ---
 
