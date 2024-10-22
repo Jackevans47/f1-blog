@@ -53,7 +53,7 @@ Navbar has the following links:
   
   <img width="176" alt="edit:logout" src="https://github.com/user-attachments/assets/a41e9266-04a6-4b27-b04d-4aad30ee318a">
 
-
+---
 
 **Footer**
 
@@ -67,10 +67,30 @@ Links to the coders social media accounts. (Links will be functional in future u
 
 <img width="241" alt="links" src="https://github.com/user-attachments/assets/c78ce42d-f4d7-480c-a0de-7cc5d7a0360f">
 
-
+---
 
 **Home page**
 
-The homepage contains the first page of blog posts avaliable for the reader to see.
+- The homepage contains the first page of blog posts avaliable for the reader to see.
 
 <img width="1425" alt="homepage" src="https://github.com/user-attachments/assets/afd7347f-2284-45ac-a98a-4176d040fc1e">
+
+
+
+- When a blog post is opened, the blog will be shown. At the bottom of the post, the comment section is displayed. If logged in, the user will be able to comment on that post and like other users comments.
+
+<img width="441" alt="leave a comment" src="https://github.com/user-attachments/assets/2c9ccccb-bab5-492e-9c47-d09e84090512">
+
+<img width="897" alt="comments logged in" src="https://github.com/user-attachments/assets/4bfd5314-f652-4a6e-841a-87602cc4a624">
+
+- If a user isnt logged in, they can still read comments and see the likes but they will not be able to comment untill they have registered for an account.
+
+<img width="920" alt="comments logged out" src="https://github.com/user-attachments/assets/dd1a6bc0-2b8e-48f4-927d-2afbf3e45868">
+
+<img width="238" alt="log in to comment" src="https://github.com/user-attachments/assets/b1cac5ef-92aa-4643-852d-15afe1a5779c">
+
+
+- A logged in user can edit or delete their posts. They can also like other users comments once but not like their own posts.
+ <img width="156" alt="edit:delete" src="https://github.com/user-attachments/assets/a4dbdd09-f8f8-4766-b0a5-f194a47bd08c">
+ <img width="345" alt="like comment" src="https://github.com/user-attachments/assets/deb21abf-dd29-424e-86c0-36d8c297548c">
+
