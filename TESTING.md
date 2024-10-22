@@ -57,7 +57,13 @@ Usability was tested with the below user acceptance testing, sent to new users t
 
 
 
+## Testing User Story
 
+| First Time Visitor Goals | Requirement met | Image |
+| ------------------------- | --------------- | ----- |
+| As a First Time Visitor, I want to be able to register my account, so that I can learn the benefits of the app as a user.| Welcome text on the top of the homepage explaining the main purpose of the website and describing the the services offered | <img width="1423" alt="register page" src="https://github.com/user-attachments/assets/eac51132-c22b-4dd4-8a3f-30d575e239ac"> |
+| As a First Time Visitor, I want to be able to easily navigate through the app, so that I can find the content. | The website has a navbar helping users easily naviagte their way through the site to areas thet want to be able top access. | <img width="1427" alt="navbar" src="https://github.com/user-attachments/assets/b58b651f-7314-4331-be9c-4bc29b285631">|
+| As a First Time Visitor, I want to be able to find the app useful, so that it encourages me to return to the app.| The website cover benefits of becoming a member  | go to features section in the [README.md](README.md)|
 
 
 
