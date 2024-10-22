@@ -151,3 +151,36 @@ To run the unit tests locally, use the following command: `python3 manage.py tes
 
 - all other .py files have no errors
 <img width="442" alt="python linter ok" src="https://github.com/user-attachments/assets/53fe6b98-49a6-4027-9589-4262a664be35">
+
+
+---
+
+## Lighthouse Report
+
+### Home Page
+<img width="605" alt="lighthouse home" src="https://github.com/user-attachments/assets/eda607bc-7a81-49f1-a68a-18f42f2210aa">
+
+
+### About Page
+<img width="504" alt="lighthouse about" src="https://github.com/user-attachments/assets/05438cc6-edf4-4c0f-b421-ec823243c8d9">
+
+### Register Page
+<img width="512" alt="lighthouse register" src="https://github.com/user-attachments/assets/1cdede8f-5c98-456c-a170-6069f18adad9">
+
+### Login Page
+<img width="499" alt="lighthouse login" src="https://github.com/user-attachments/assets/0323e08f-9f8f-47c4-b9d3-621eb46c5085">
+
+### Edit Profile Page
+<img width="497" alt="lighthouse edit profile" src="https://github.com/user-attachments/assets/7ee5e5e9-f642-42dd-8c99-e1f8d49217fa">
+
+### Logout Page
+<img width="501" alt="lighthouse logout" src="https://github.com/user-attachments/assets/f0e1083a-17bb-4d3c-b770-706a6b22e009">
+
+### Change Password Page
+<img width="504" alt="lighthouse change password" src="https://github.com/user-attachments/assets/0108ec9e-f054-408f-8fc7-286f3c84f2fd">
+
+### Blog Post Page
+<img width="493" alt="lighthouse blog post" src="https://github.com/user-attachments/assets/ae630a04-bb09-4870-9ead-5eb4af1f02a8">
+
+
+---
