@@ -132,6 +132,12 @@ The app was developed for anyone wanting to stay up to date with F1 news.
 
 ---
 
+## FEATURES
+
+Please refer to the [FEATURES.md](FEATURES.md) file for all features-related documentation.
+
+---
+
 ### Entity-Relationship Diagram
 
 * The ERD was created using [Draw.io](https://www.lucidchart.com/).
