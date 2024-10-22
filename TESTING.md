@@ -218,3 +218,17 @@ Testing was conducted on the following browsers;
 
 ---
 
+# Responsiveness
+
+The responsiveness was checked manually by using devtools (Chrome) throughout the whole development.
+
+- Desktop
+- ![responsive desktop](https://github.com/user-attachments/assets/16184c23-f024-40cb-ade7-f074fb346276)
+
+- Tablet
+- ![responsive tablet ](https://github.com/user-attachments/assets/e7d37600-ac5e-407c-a17c-7fdef0614b9b)
+
+- Phone
+- ![responsive phone](https://github.com/user-attachments/assets/18e536c7-bdc7-4b0d-8e8a-2cd520295aaf)
+
+---
