@@ -75,3 +75,5 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | As a frequent user, i want to be able to comment on blog posts.| After creating a profile, comments can be made on blog posts.|<img width="441" alt="leave a comment" src="https://github.com/user-attachments/assets/ba675e9f-75b4-4a12-b88f-d0abbe0ca1d1">|
 |As a frequent user, i want to be able to view comments made on a blog post.| All comments avaliable to view on any blog post|<img width="920" alt="comments logged out" src="https://github.com/user-attachments/assets/85c267e1-f1df-4e90-9b7d-7fb287e948af">|
 | As a frequent user, i want to be able to modify or delete my comments.| Next to the comment there is an edit or delete button|<img width="897" alt="comments logged in" src="https://github.com/user-attachments/assets/8420dc1d-5de9-4a65-9955-c3c7c421055d">|
+| As a frequent user, i want to be able to like comments on blog posts.| next to comments there is a like button|<img width="345" alt="like comment" src="https://github.com/user-attachments/assets/d7011334-75f8-4977-84de-bad529f35755">
+|
