@@ -75,5 +75,39 @@ Usability was tested with the below user acceptance testing, sent to new users t
 | As a frequent user, i want to be able to comment on blog posts.| After creating a profile, comments can be made on blog posts.|<img width="441" alt="leave a comment" src="https://github.com/user-attachments/assets/ba675e9f-75b4-4a12-b88f-d0abbe0ca1d1">|
 |As a frequent user, i want to be able to view comments made on a blog post.| All comments avaliable to view on any blog post|<img width="920" alt="comments logged out" src="https://github.com/user-attachments/assets/85c267e1-f1df-4e90-9b7d-7fb287e948af">|
 | As a frequent user, i want to be able to modify or delete my comments.| Next to the comment there is an edit or delete button|<img width="897" alt="comments logged in" src="https://github.com/user-attachments/assets/8420dc1d-5de9-4a65-9955-c3c7c421055d">|
-| As a frequent user, i want to be able to like comments on blog posts.| next to comments there is a like button|<img width="345" alt="like comment" src="https://github.com/user-attachments/assets/d7011334-75f8-4977-84de-bad529f35755">
-|
+| As a frequent user, i want to be able to like comments on blog posts.| next to comments there is a like button|<img width="345" alt="like comment" src="https://github.com/user-attachments/assets/d7011334-75f8-4977-84de-bad529f35755">|
+
+
+## Bugs
+
+- During development, a bug was found when refreshing the page after posting a comment would cause the comment to duplicate. This was caused when the page was refreshed a POST request was being made rather than a GET request. This bug has now been resolved 
+<img width="495" alt="duplication bug" src="https://github.com/user-attachments/assets/c77cf7d1-be23-4add-abb8-5afd72413861">
+<img width="452" alt="refresh  bug" src="https://github.com/user-attachments/assets/6ebb02d8-c94b-4adf-a1ec-0425904fe25a">
+
+- During development, i was having issues with formatting on vs code which was causing errors. This was resolved by saving without formatting
+
+
+![before format](https://github.com/user-attachments/assets/8365e036-6f30-4fe7-99f7-9758ef72c8ba)
+![formating error](https://github.com/user-attachments/assets/c515fa2f-2c57-4123-a7fe-eb9d670c6d14)
+
+
+### Unit Tests
+
+The application includes a suite of unit tests to ensure the functionality of its components.  Test file can be found in the app folders.
+![blog test folders](https://github.com/user-attachments/assets/096aa998-ae4d-46c8-84be-38ccff15b67e)
+
+![about test folders](https://github.com/user-attachments/assets/ccfb266d-d56d-46de-8673-b271d8f50e75)
+
+To run the unit tests locally, use the following command: `python3 manage.py test`
+
+
+- While running tests, no errors were found.
+  ![7 tests ](https://github.com/user-attachments/assets/57f81a17-7983-45ae-84c5-77f82521c742)
+
+
+
+- The code used to carry out the tests are as follows:
+- ![blog test_views](https://github.com/user-attachments/assets/9d8d895c-9eb1-43af-a28c-0597515b6ce3)
+- ![test_views](https://github.com/user-attachments/assets/b1a89f1e-6c03-4f57-9d15-c804c29cc1b3)
+- ![test_forms](https://github.com/user-attachments/assets/6b97b7f2-1998-4622-b57c-7fa496741d50)
+
