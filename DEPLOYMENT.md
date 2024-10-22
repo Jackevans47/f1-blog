@@ -98,6 +98,45 @@ Click on Reveal Config Vars and add the following config variables:
 | Key      | Value          |
 |-------------|-------------|
 | DATABASE_URL | ... | 
+| DISABLE_COLLECTSTATIC | 1 |
 | CLOUDINARY_URL | ... |
 | SECRET_KEY | ... |
 
+* Copy the value of DATABASE_URL and CLOUDINARY_URL then input it into the .env file and generate a secret key (you may use [Djecrety](https://djecrety.ir/) for secret key generation).
+* Migrate changes.
+* Set debug to False in settings.py
+* Commit and push the changes to GitHub.
+* Connect your repository to Heroku.
+
+<img width="1413" alt="deploy page" src="https://github.com/user-attachments/assets/2d934f3c-0c35-4c02-9b63-73a6422867b9">
+
+
+* Deploy the app to Heroku by clicking "Deploy Branch" button. If you want to enable auto-deployment, click "Enable Automatic Deployment".
+
+  <img width="194" alt="enable automatic deploy" src="https://github.com/user-attachments/assets/49522b6e-2cb9-4c9e-90eb-d3f5962322f5">
+
+<img width="628" alt="deploy branch" src="https://github.com/user-attachments/assets/ff5e0a24-b8be-4d6e-8064-f8bd91b5b36c">
+
+The deployment process will start.
+
+<img width="789" alt="deloyment proccess" src="https://github.com/user-attachments/assets/271c9a91-2f84-42a7-a07c-171073e6b347">
+
+
+Click "View build logs" to see the progress of the deployment.
+
+ <img width="1250" alt="view logs" src="https://github.com/user-attachments/assets/db42c3bc-10fb-4b3c-933e-8bb1cb3a78c6">
+
+*Due to security updates, Heroku dashboard will not allow you to deploy your app from GitHub. Thus, you need to run the following commands in your terminal:*
+
+| action | terminal command | comment |
+| ------ | ---------------- | ------- |
+| login to your heroku account | `heroku login -i` | |
+| create a new app on heroku | `heroku create NAME-OF-YOUR-APP` | if you haven't created the app before, and then, you can access the app via the Heroku dashboard and set up your config vars.|
+| add remote to your local repository | `heroku git:remote -a NAME-OF-YOUR-APP` | if you have already created app on Heroku (before the security updates) and connected it using Heroku dashboard |
+| deploy new version of the app | `git push heroku main` | |
+| rename app | `git remote rename NAME-OF-YOUR-APP NAME-OF-YOUR-APP-2` | |
+
+**Final Deployment**
+
+* Set debug to False locally + delete DISABLE_COLLECTSTATIC from config vars in Heroku dashboard.
+* Commit and push the changes to GitHub.
